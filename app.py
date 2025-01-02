@@ -110,4 +110,4 @@ if st.button("Predict"):
     rescaled_prediction = scaler.inverse_transform(prediction.reshape(-1, 1))
 
     # Display results
-    st.write(f"Predicted Traffic Density: {float(rescaled_prediction[0]):.2f}")
+    st.write(f"Predicted Space Traffic Density: {float(rescaled_prediction[0]):.2f}")
